@@ -1382,3 +1382,14 @@ width: 450px;
     margin-bottom: 2.5rem;
   }
 }
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#000, #359c71);
+  border-radius: 6px;
+}

@@ -123,7 +123,7 @@
                         </div>
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'am Sanjeev</h1>
-                            <h3 class="home__subtitle">Full-Stack Developer</h3>
+                            <h3 class="home__subtitle">I am a <span class="role"></span></h3>
                             <p class="home__description">Self-driven, quick starter, passionate programmer with a 
                                 curious mind who enjoys solving a complex and challenging real-world problems</p>
                                 
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                             <div class="about__buttons">
-                                <a download="" href="/assets/pdf/Alexa-Cv.pdf" class="button button--flex">
+                                <a download="" href="/assets/pdf/resume.pdf" class="button button--flex">
                                  Download CV   <i class="uil uil-download-alt button__icon"></i>
                                 </a>
                             </div>
@@ -1062,6 +1062,30 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+
+
+         <!--==================== JSDELIVER JavaScript For Changes Name In Home Page ====================-->
+
+         
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+        <script>
+          var typeData = new Typed(".role", {
+            strings: [
+              "Full Stack Developer",
+              "Web Developer",
+              "UI-UX Designer",
+              "Backend Developer",
+              "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+          });
+        </script>
+
+        
 
        
     </body>
